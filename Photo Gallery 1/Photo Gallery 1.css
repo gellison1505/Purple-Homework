@@ -1,0 +1,33 @@
+body {
+  width: 960px;
+  margin: 24px auto;
+}
+
+header { text-align: center; }
+
+.my-photo {
+  width: 95%;
+  margin:3px;
+  box-shadow: 4px 4px 4px;
+}
+
+/* Flexbox model of flow */
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+}
+
+.zone {
+  border-style: solid;
+  width: 45%;
+  margin:0px;
+  padding: 0px;
+  border: 0px;
+  
+}
+
+@media (max-width: 900px) {
+  ul, #container { display: block; }
+}
