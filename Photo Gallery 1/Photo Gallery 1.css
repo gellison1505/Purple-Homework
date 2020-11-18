@@ -1,33 +1,57 @@
 body {
-  width: 960px;
+  width: 75%;
   margin: 24px auto;
 }
 
-header { text-align: center; }
-
-.my-photo {
-  width: 95%;
-  margin:3px;
-  box-shadow: 4px 4px 4px;
+#my-head { 
+  text-align: center; 
+  font-family: "Arial";
 }
 
 /* Flexbox model of flow */
 #container {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
   justify-content: space-around;
-  
+  background-color: #ccc;
+  padding: 50px 0px 50px 1px;
 }
 
-.zone {
-  border-style: solid;
+.qtr {
   width: 45%;
-  margin:0px;
-  padding: 0px;
-  border: 0px;
-  
+  border: 3px solid #ccc;
+  padding: 20px;
+
 }
 
+.my-photo {
+  width: 90%;
+}
+
+.ridge {
+  border: ridge #993636 20px;
+}
+
+.groove {
+  border: groove #20ce68 20px;
+}
+
+.drop {
+ box-shadow: 10px 10px 10px black; 
+}
+
+/*
+.rounded{
+width: 300px;
+  height: 250px;
+  border: 3px solid rgb(163, 189, 50);
+  border-radius: 10% 10% 10% 10%;
+  background: #eee;
+  margin: auto;
+  padding: 15px 10px;
+}
+*/
 @media (max-width: 900px) {
   ul, #container { display: block; }
 }
