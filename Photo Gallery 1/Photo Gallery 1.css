@@ -13,16 +13,15 @@ body {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-around;
-  background-color: #ccc;
-  padding: 50px 0px 50px 1px;
+  justify-content: center;
+  background-color: rgb(235, 228, 209);
+  padding: 50px 0px 50px 0px;
 }
 
 .qtr {
   width: 45%;
-  border: 3px solid #ccc;
+  border: px solid rgb(235, 228, 209);
   padding: 20px;
-
 }
 
 .my-photo {
@@ -37,21 +36,16 @@ body {
   border: groove #20ce68 20px;
 }
 
-.drop {
- box-shadow: 10px 10px 10px black; 
+.plain {
+  padding: 20px;
 }
 
-/*
-.rounded{
-width: 300px;
-  height: 250px;
-  border: 3px solid rgb(163, 189, 50);
-  border-radius: 10% 10% 10% 10%;
-  background: #eee;
-  margin: auto;
-  padding: 15px 10px;
+.out {
+  border-width: 20px;
+  border-radius: 5% 5% 5% 5%;
+  border-style: outset; 
 }
-*/
+
 @media (max-width: 900px) {
   ul, #container { display: block; }
 }
