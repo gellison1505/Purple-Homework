@@ -8,21 +8,13 @@ For easiest viewing of these instructions, view online or use a Markdown preview
 
 Instructions
 
-This assignment will help you practice programming in Javascript and JQuery and using HTML animations by simulating a well-known card game. Watch [How to Play Blackjack](`https://www.youtube.com/watch?v=eyoh-Ku9TCI`) to familiarize yourself with the basic rules of the game. 
+This assignment builds on `Deal a Deck of Cards`. You will use Javascript, jQuery, and HTML to simulate the game of blackjack. Watch [How to Play Blackjack](`https://www.youtube.com/watch?v=eyoh-Ku9TCI`) to familiarize yourself with the basic rules. 
 
-Assignment
-* Use Implement card values
-* Implement player hit
-* Implement player stay
-* Implement dealer <= 16 instruction
-* Implement dealer >=17 
-* Implement player win/lose
+Instructions
 
-Take a look at Newspaper.pdf.       
+Review `blackjack.pdf`, `blackjack.html` and `blackjack.js`. The blackjack application simulates the actions of dealer and player. Make the game functional by adding the missing code the player sections in the provided files.
 
-* Use semantic HTML tags to mark headers and article content.
-* Create an external stylesheet and use CSS and flexbox to match the pdf.
-* You are encouraged to learn additional CSS techniques to help you complete the assignment.
-* Try to come as close as possible the pdf example.
-
-Visit [Lorem Ipsum](`https://www.lipsum.com/`) to generate text for the Newspaper article.
+* implement hit button
+* implement stay button
+* implement bust
+* implement blackjack
