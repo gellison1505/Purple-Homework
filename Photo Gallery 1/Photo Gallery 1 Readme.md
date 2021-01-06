@@ -2,7 +2,7 @@
 
 ## points
 
-DUE: 
+## Due: 
 
 For easiest viewing of these instructions, view online or use a Markdown previewer.
 
@@ -20,3 +20,10 @@ Take a look at Photo Gallery 1.pdf.
 * You are encouraged to learn additional CSS techniques to help you complete the assignment.
 * Try to come as close as possible the pdf example.
 
+**Grading Rubric**
+
+* [] points: ...
+* [] points: ...
+* [] points: ...
+* [] points: ...
+* [] points: ...

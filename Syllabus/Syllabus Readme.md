@@ -1,7 +1,9 @@
-# Homework Assignment #1
+# Syllabus Assignment
 points
 
 **DUE:** 
+
+For easiest viewing of these instructions, you may want to view online with a Markdown previewer.
 
 **Instructions**
 
@@ -11,8 +13,13 @@ Challenge: Make an HTML version of <span style="font-family:Courier;">Course Syl
 
 Do not attempt to make your syllabus match the example exactly. Instead, experiment with fonts, colors, weights, and alignment to achieve an equally professional look.
 
+**Grading Rubric**
 
-
+* [] points: ...
+* [] points: ...
+* [] points: ...
+* [] points: ...
+* [] points: ...
 
  
 

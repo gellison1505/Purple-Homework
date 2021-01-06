@@ -2,7 +2,7 @@
 
 ## points
 
-DUE: 
+## Due: 
 
 For easiest viewing of these instructions, view online or use a Markdown previewer.
 
@@ -18,3 +18,11 @@ Take a look at Newspaper.pdf.
 * Try to come as close as possible the pdf example.
 
 Visit [Lorem Ipsum](`https://www.lipsum.com/`) to generate text for the Newspaper article.
+
+**Grading Rubric**
+
+* [] points: ...
+* [] points: ...
+* [] points: ...
+* [] points: ...
+* [] points: ...

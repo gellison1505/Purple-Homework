@@ -8,7 +8,7 @@ For easiest viewing of these instructions, view online or use a Markdown preview
 
 Instructions
 
-This assignment builds on `Deal a Deck of Cards`. You will use Javascript, jQuery, and HTML to simulate the game of blackjack. Watch [How to Play Blackjack](`https://www.youtube.com/watch?v=eyoh-Ku9TCI`) to familiarize yourself with the basic rules. 
+This assignment builds on `Deal a Deck of Cards`. If you didn't do that assignment, you can refer to [folder info here] for hints on how to deal and randomize the card deck. You will use Javascript, jQuery, and HTML to simulate the game of blackjack. Watch [How to Play Blackjack](`https://www.youtube.com/watch?v=eyoh-Ku9TCI`) to familiarize yourself with the basic rules. 
 
 Instructions
 
