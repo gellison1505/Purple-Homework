@@ -12,22 +12,23 @@ body {
 
 /* Flexbox model of flow */
 #container {
+  padding: 20px 0px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-color: rgb(235, 228, 209);
-  padding: 50px 0px 50px 0px;
+  column-gap: 15px;
+  row-gap: 15px;
 }
 
 .qtr {
   width: 45%;
-  border: px solid rgb(235, 228, 209);
-  padding: 20px;
+
 }
 
 .my-photo {
   width: 90%;
+
 }
 
 .ridge {
@@ -39,20 +40,17 @@ body {
 }
 
 .plain {
-  padding: 20px;
+  margin-left: auto;
 }
 
 .out {
   border-width: 20px;
   border-radius: 5% 5% 5% 5%;
   border-style: outset; 
+  border-color:burlywood
 }
 
 #foot {
   text-align: center;
-  padding-top: 0%;
-}
-
-@media (max-width: 900px) {
-  ul, #container { display: block; }
+  padding-top: 15px;
 }

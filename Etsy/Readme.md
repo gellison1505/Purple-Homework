@@ -1,19 +1,14 @@
-# Homework #2
+# Etsy
 
-15 points
-
-**DUE: Thursday, January 30 by 5:30pm**
+## 15 points
 
 For easiest viewing of these instructions, view online or use a Markdown previewer.
 
-
 ### Instructions
 
-This assignment will help you get practice with page layout and
-mobile design.  Some HTML and CSS research will be required.
+This assignment will help you get practice with page layout and mobile design.  Some HTML and CSS research will be required.
 
-
-**1. Large Layout**.
+**1. Large Layout**
 
 Take a look at the "above the fold" screenshot I took of the [Etsy home page](etsy-target.png).
 
@@ -25,8 +20,8 @@ Take a look at the "above the fold" screenshot I took of the [Etsy home page](et
   * Modify [the starter page](etsy.html) so that it looks as like [the target](etsy-target.png).
   * You can add as many other files as needed (for example, you should add a CSS file instead
     of using a `<style>` element in the HTML itself).
-  * You are encouraged to learn additional CSS techniques not covered in class
-    but you may NOT use a full CSS framework such as Boostrap or Foundation.
+  * You are encouraged to learn additional CSS techniques not covered in class,
+    but you may NOT use a full CSS framework such as Bootstrap or Foundation.
   * It will NOT be possible to build an exact replica.  You can use
     the "system font" instead.  Use this tutorial: https://css-tricks.com/snippets/css/system-font-stack/
   * You are encouraged to study and/or steal from  the live https://www.etsy.com/ to determine margins,
@@ -47,9 +42,9 @@ it should be about the same for any mobile phone.
 **Grading Rubric**
 
 * 7 points: Large layout closely resembles the target
-* 4 points: Mobile layout closely resembles the target
+* 5 points: Mobile layout closely resembles the target
 * 2 points: Reasonable choice of typography (use the "system font" trick mentioned above
-  or pick your own fonts) & reasonable match of font weights/color schemes
-* 2 points: Fine details: rounded corners as needed, icons in toolbar,
+  or pick your own fonts) and reasonable match of font weights/color schemes
+* 1 points: Fine details: rounded corners as needed, icons in toolbar,
             nice search form with seamless "Search" button,
             orange custom checkmarks, search placeholder text ("Search for items or shops")
