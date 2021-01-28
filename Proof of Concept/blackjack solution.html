@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+
+  <style media="screen">
+    #cards img {
+      width: 125px;
+      margin-right: 1px;
+    }
+    /* player wins */
+
+    #won_or_bust{
+      margin-top: 60px;
+      padding:20px;
+      min-height: 48px;
+      font-size: 48px;
+      color: white;
+      text-align: center;
+    }
+    #win_message{
+      margin-top: 60px;
+      padding:20px;
+      min-height: 48px;
+      background: green;
+      font-size: 48px;
+      color: yellow;
+      text-align: center;
+    }
+    /* player loses*/
+    #bust_message{
+      margin-top: 60px;
+      padding:20px;
+      background: brown;
+      font-size: 48px;
+      color: yellow;
+      text-align: center;
+    }
+
+    #buttons{
+      padding:20px;
+      text-align: center;
+    }
+
+    #button {
+      font-size: 24px;
+      width: 125px;
+      margin: 15px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- display player cards -->
+  <div class="container mt-3">
+
+    <div class="row">
+      <div class="col mx-auto text-center">
+        <h3>Let's Play Blackjack</h3>
+        <div id="cards" class="mt-5">
+         
+          <img id="14" src="images/cards/blank.png">
+          <img id="12" src="images/cards/blank.png">
+          <img id="10" src="images/cards/blank.png">
+          <img id="dealer_hidden" src="images/cards/blank.png">
+          <img id="dealer_visible" src="images/cards/blank.png">
+          <img id="11" src="images/cards/blank.png">
+          <img id="13" src="images/cards/blank.png">
+          <img id="15" src="images/cards/blank.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- display either the win or bust message -->
+  <div id="bust_message">Bust</div>
+
+  <!-- display player cards -->
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col mx-auto text-center">
+        <div id="cards" class="mt-5">
+    
+          <img id="7" src="images/cards/blank.png">
+          <img id="5" src="images/cards/blank.png">
+          <img id="3" src="images/cards/blank.png">
+          <img id="1" src="images/cards/blank.png">
+          <img id="2" src="images/cards/blank.png">
+          <img id="4" src="images/cards/blank.png">
+          <img id="6" src="images/cards/blank.png">
+          <img id="8" src="images/cards/blank.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="buttons">
+    <button id="button" type="button" onclick="getRandomCard()">Deal</button>
+    <button id="button" type="button" onclick="getRandomCard()">Hit</button>
+    <button id="button" type="button" onclick="getRandomCard()">Stay</button>
+  </div>
+
+  <script src="blackjack.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -3,13 +3,30 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="Photo Gallery 1.css">
-  <title>Photo Gallery 1</title>
+  <title>Color Picker</title>
 </head>
   
-<body>
-<button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
-<p id="demo" color></p>
+<body id="body" style="padding: 50px; font-size: 48px;">
+
+  Color Picker
+
+  <form style="font-size: 32px; border-style: solid; padding: 20px;">
+    <input onclick=color(value) name="choice" type="radio" value="purple">
+    <label for="purple">Purple</label><br>
+    <input onclick=color(value) name="choice" type="radio" value="green">
+    <label for="green">Green</label><br>
+    <input onclick=color(value) name="choice" type="radio" value="yellow">
+    <label for="yellow">Yellow</label><br>
+    <input onclick=color(value) name="choice" type="radio" value="red">
+    <label for="red">Red</label><br>
+  </form>
+
+<script>
+  function color(val) {
+    var elem = document.getElementById("body");
+    elem.style.backgroundColor=val;
+  }
+</script>
 </body>
 
 </html>
