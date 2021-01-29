@@ -1,0 +1,3 @@
+function viewCart() {
+  alert("Clicking the Shopping Cart opens cart.html. Cart lists the items the user ordered and includes the item prices and total. The user can delete items from the list. The cart form allows the user to choose pickup or delivery. Choosing pickup shows a list of times, starting 30 minutes from the current time. Choosing delivery allows the user to enter name, address, and telephone number.");
+}

@@ -1,0 +1,123 @@
+section {
+  flex-direction: row;
+  padding: 0 50px;
+  border: 0px;
+  margin: 0px;
+  min-height: 100%;
+  background-color: #faeba0;
+}
+
+body {
+  background-color: #faeba0;
+
+}
+
+#shopping-cart {
+  margin-left:95.5%;
+  
+}
+
+#header {
+  padding-bottom: 65px;
+  font-size: 65px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#operation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-style: solid;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 25px;
+  background: #ccc;
+  color: #000;
+}
+
+#menu {
+  box-shadow: 5px 10px 8px 10px #888888;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background: #ccc;
+  color: #000;
+}
+h1 {
+  font-size: 36px;
+  color: brown;
+
+}
+ 
+#menu>* {
+  flex: 1 1 500px;
+}
+
+.in-cart {
+  width:35%;
+  background-color: green;
+  border: none;
+  height: 35px;
+  float: inline-end;
+  font-size: larger;
+  color: white;
+}
+
+
+.order {
+  width:35%;
+  background-color: transparent;
+  border: dotted;
+;
+  height: 35px;
+  float: inline-end;
+  font-size: larger;
+  color:black;
+}
+
+.item {
+ padding: 10px;
+}
+
+.menuName {
+  font-size: 30px;
+  font-weight: bold;
+  color: brown;
+}
+
+.menuDetail, .menuPrice {
+  font-size: 25px;
+}
+
+.menuPrice { 
+  color: green;
+  text-align: right;
+ }
+
+#subTitle {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+#foot {
+    padding: 40px 0;
+  }
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
