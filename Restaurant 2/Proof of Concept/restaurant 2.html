@@ -8,8 +8,9 @@
   
   <body>
     <div id="shopping-cart">
-      <!-- <i class="fas fa-shopping-cart fa-3x" style="float: right; color:green;"></i> -->
-      <button onclick=viewCart() class="btn" style="; background-color: transparent; border: none;"><i class="fas fa-cart-plus fa-3x" style="float: right; color:green;"></i></button>
+
+      <button class="btn"><i class="fas fa-cart-plus fa-3x" ></i></button>
+      
     </div>
   <article id="container">  
     <header>
@@ -38,37 +39,36 @@
     </header>
       <h1>Our Menu</h1>
     <section id="menu">
-      <div class="item"data-item="Taco Supreme" data-price="4.50">
-        <button class="in-cart">Added to Cart!</i></button>
+      <div class="item" data-itemnum=0 data-item="Taco Supreme" data-price="4.50">
+        <button id="0" class="order" onclick=viewCart(0)>Add to Cart</i></button>
         <div class="menuName">Taco Supreme</div>
         <div class="menuDetail">A DELICIOUS combination of all our mouthwatering ingredients.</div>
         <div class="menuPrice">$4.50</div>
       </div>
-      <div class="item" data-item="Waco Taco" data-price="6.50"> 
-        <button class="order">Add to Cart!</i></button>
+      <div class="item" data-itemnum=1 data-item="Waco Taco" data-price="6.50"> 
+        <button id="1" class="order" onclick=viewCart(1)>Add to Cart!</i></button>
         <div class="menuName">Waco Taco</div>
         <div class="menuDetail">A Texas favorite! Frijoles galore, plus lots of crema and onions.</div>
         <div class="menuPrice">$6.50</div>
       </div>
-      <div class="item" data-item="Taco Chorizo" data-price="5.50"> 
-        <button class="order">Add to Cart!</i></button>
+      <div class="item" data-itemnum=2 data-item="Taco Chorizo" data-price="5.50"> 
+        <button id=2 class="order" onclick=viewCart(2)>Add to Cart!</i></button>
         <div class="menuName">Taco Chorizo</div>
         <div class="menuDetail">For carnivores only. Plenty of guacamole and onions on top!</div>
         <div class="menuPrice">$5.50</div>
       </div>
-      <div class="item" data-item="Taco Vego" data-price="7.50"> 
-        <button class="order">Add to Cart!</i></button>
+      <div class="item" data-itemnum=3 data-item="Taco Vego" data-price="7.50"> 
+        <button id=3 class="order" onclick=viewCart(3)>Add to Cart!</i></button>
         <div class="menuName">Taco Vego</div>
         <div class="menuDetail">Vegans rejoice over our spicy seitan mixed with tomatoes, lettuce, onions, and salsa!</div>
         <div class="menuPrice">$7.50</div>
       </div>
     </section>
-<script src = "restaurant 2.js"></script>
+    <script src = "restaurant 2.js"></script>
     <footer id="foot">
     Copyright Rockit Tacos Group, Inc.
     </footer>
   </article>
 
-  
 </body>
 </html>

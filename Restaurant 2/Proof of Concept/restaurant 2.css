@@ -9,12 +9,22 @@ section {
 
 body {
   background-color: #faeba0;
+}
 
+.fas {
+  float: right; 
+  color:green;
+}
+
+.btn {
+  background-color: transparent; 
+  border: none;
+  display:none; 
 }
 
 #shopping-cart {
   margin-left:95.5%;
-  
+  height: 3em;
 }
 
 #header {
@@ -80,7 +90,7 @@ h1 {
   color:black;
 }
 
-.item {
+.item{
  padding: 10px;
 }
 
