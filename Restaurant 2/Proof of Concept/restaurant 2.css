@@ -59,7 +59,7 @@ span > img {
   margin-bottom: 20px;
   padding: 10px;
   font-size: 20px;
-  background: #ccc;
+  /* background: #ccc; */
   color: #000;
 }
 
@@ -82,10 +82,10 @@ h1 {
 }
 
 .menu {
-  box-shadow: 5px 5px 5px 5px #888888;
+  /* box-shadow: 5px 5px 5px 5px #888888; */
   padding: 10px;
   margin-bottom: 20px;
-  background: #ccc;
+  /* background: #ccc; */
   color: #000;
 }
 
@@ -123,7 +123,7 @@ h1 {
   padding: 20px;
   font-size: 24px;
   text-align: left;
-  background: #ccc;
+  /* background: #ccc; */
   color: #000;
 }
 
