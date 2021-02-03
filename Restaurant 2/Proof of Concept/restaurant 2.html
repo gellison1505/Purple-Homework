@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="restaurant 2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  </head>
+  
+  <body>
+<!--     <div id="shopping-cart">
+
+      <button class="btn" onclick="showCart()"><i class="fas fa-cart-plus fa-3x" ></i></button>
+      
+    </div>
+ -->  
+ <article>  
+    <header>
+      <div class="header">
+        <span><img class="right" src="taco.png "></span>
+        <span>Rockit Tacos</span>
+        <span><img class=left src="taco.png "></span>
+      </div>
+          <div class="subTitle">"Highly Recommended!"... Jeff C.</div>
+    
+      <div class="operation">
+        <div class="address">
+          <span class="heavy">Address:</span><br>
+          352 Halstead St.<br>
+          Chicago, IL  60602<br>
+          800-888-8888<br>
+        </div>
+        <div class="hours">
+          <span class="heavy">Hours:</span><br>
+          Mon-Sat: 10AM to 11PM<br>
+          Closed Sundays<br>
+        </div> 
+      </div>
+
+    </header>
+      <h1>Our Menu</h1>
+    <section class="menu">
+      <div class="item" >
+        <button id="item0" class="order" data-item="Taco Supreme" data-price="4.50" onclick=viewCart(0)>Add to Cart</button>
+        <div class="menuName">Taco Supreme</div>
+        <div class="menuDetail">A DELICIOUS combination of all our mouthwatering ingredients.</div>
+        <div class="menuPrice">$4.50</div>
+      </div>
+      <div class="item" > 
+        <button id="item1" class="order" data-item="Waco Taco" data-price="6.50" onclick=viewCart(1)>Add to Cart!</button>
+        <div class="menuName">Waco Taco</div>
+        <div class="menuDetail">A Texas favorite! Frijoles galore, plus lots of crema and onions.</div>
+        <div class="menuPrice">$6.50</div>
+      </div>
+      <div class="item"> 
+        <button id=item2 class="order" data-item="Taco Chorizo" data-price="5.50" onclick=viewCart(2)>Add to Cart!</button>
+        <div class="menuName">Taco Chorizo</div>
+        <div class="menuDetail">For carnivores only. Plenty of guacamole and onions on top!</div>
+        <div class="menuPrice">$5.50</div>
+      </div>
+      <div class="item"> 
+        <button id=item3 data-item="Taco Vego" data-price="7.50" class="order" onclick=viewCart(3)>Add to Cart!</button>
+        <div class="menuName">Taco Vego</div>
+        <div class="menuDetail">Vegans rejoice over our spicy seitan mixed with tomatoes, lettuce, onions, and salsa!</div>
+        <div class="menuPrice">$7.50</div>
+      </div>
+    </section>
+    <h1>Your Shopping Cart</h1>
+    <section class="cart">
+      <div>
+        <div class="cart-item-name" data-item="Taco Supreme" data-price="4.50">Taco Supreme</div> 
+        <span>Qty: <input class=qty type="number" name="1" min="1"></span>
+        <div class="cart-price">$4.50</div>
+        <hr>
+      </div>
+      <div>
+        <div class="cart-item-name" data-item="Taco Chorizo" data-price="5.50">Taco Chorizo</div>
+        <span>Qty: <input class=qty type="number" name="1" min="1"></span>
+        <div class="cart-price">$27.50</div>
+        <hr>
+      </div>
+      <div>
+        <div class="cart-item-name" data-item="Taco Vego" data-price="7.50">Taco Vego</div>
+        <span>Qty: <input class=qty type="number" name="1" min="1"></span>
+        <div class="cart-price">$30.00</div>
+        <hr>
+      </div>
+      <div>
+        <span class="cart-total-label">Your Total</span>
+        <span class="cart-total">$62.00</span>
+      </div>
+
+      <div class="buttons">
+        <input class="button" type="button" value="Check Out Now">
+        <input class="button" type="button" value="Clear">
+      </div>
+    </section>
+  
+    <script src = "restaurant 2.js"></script>
+
+  </article>
+<footer id="foot">
+  Copyright Rockit Tacos Group, Inc.
+</footer>
+</body>
+</html>

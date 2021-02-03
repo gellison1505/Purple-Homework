@@ -1,14 +1,12 @@
+article {
+  max-width: 600px;
+}
+
 section {
-  flex-direction: row;
   padding: 0 50px;
   border: 0px;
   margin: 0px;
   min-height: 100%;
-  background-color: #faeba0;
-}
-
-body {
-  background-color: #faeba0;
 }
 
 .fas {
@@ -38,34 +36,21 @@ h1 {
 }
 
 #operation {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   border-style: solid;
   margin-bottom: 20px;
   padding: 20px;
   font-size: 25px;
-  background: #ccc;
   color: #000;
 }
 
 #menu {
-  box-shadow: 5px 10px 8px 10px #888888;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   padding: 10px;
-  background: #ccc;
   color: #000;
 }
 h1 {
   font-size: 36px;
   color: brown;
 
-}
- 
-#menu>* {
-  flex: 1 1 500px;
 }
 
 .in-cart {
@@ -118,16 +103,3 @@ h1 {
     padding: 40px 0;
   }
 
-  /* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: #474e5d;
-  padding-top: 50px;
-}

@@ -1,10 +1,10 @@
-var menuitem;
+var menuitem ="a";
 var orders = [];
 
 function viewCart(item) {
   menuitem = item;
-  var view = document.getElementById("order");
-  // view[0].style.display = "table";
+  var view = document.getElementsByClassName("btn");
+  view[0].style.display = "table";
   changeButton();
   addToOrder();
 
