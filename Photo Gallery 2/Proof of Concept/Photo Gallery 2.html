@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Photo Gallery 2.css">
+  <title>Photo Gallery 1</title>
+</head>
+  
+<body>
+  <h1>Picture a Pet</h1>
+  <p>Yes, he Is adorable. Imagine seeing those eyes and 
+    that friendly smile everyday <span class="italic">without the responsiblity of taking
+    care of him.</span> Get a care-free Sheepadoodle for your home, 
+    office, or home-office now! All pictures are $20.00.</p>
+    <p class="heavy"> Scroll to the bottom of the page 
+   to choose quantity and type of frame.</p>
+
+<!--GALLERY OF IMAGES  -->
+
+  <div id="container">
+    <div class="qtr">
+      <img class="my-photo" src="Noble1.jpg" alt="Early Noble">
+      <div class= "description">
+        <div class="picture-title">Decked Out</div>
+        <div class="button"><input type="button" value="Add to Cart"></div>
+      </div>
+    </div>
+    
+    <div class="qtr">
+      <img class="my-photo" src="Noble2.jpg" alt="Early Noble">
+      <div class="description">
+        <div class="picture-title">Groomed and Goofy</div>
+        <div class="button"><input type="button" value="Add to Cart"></div>
+      </div>
+    </div>
+
+    <div class="qtr">
+      <img class="my-photo" src="Noble3.jpg" alt="Early Noble">
+      <div class="description">
+        <div class="picture-title">Holiday Special</div>
+        <div class="button"><input type="button" value="Add to Cart"></div>
+      </div>
+    </div>
+
+    <div class="qtr">
+      <img class="my-photo" src="Noble4.jpg" alt="Early Noble">
+      <div class="description">
+        <div class="picture-title">Chill</div>
+        <div class="button"><input type="button" value="Add to Cart"></div>
+      </div>
+    </div>
+
+    <div class="section-checkout">
+      <h2>You Picked</h2>
+<!-- YOU PICKED -->
+      <form>
+          <img class="my-thumbnail" src="Noble2.jpg" alt="Early Noble">
+          <div class="picture-name">Groomed and Goofy</div>
+          <div class=cost>Total: $76</div>
+          <p class="heavy">1. Select the number of copies you want.</p>
+          <div class="picture-total">
+            <span><input class=qty type="number" name="1" min="0"></span>
+            <div class="copies">copies @ $20.00 each totals: </div>
+            <div class="p-myblock">
+              <div class="minortotal">40.00</div>
+            </div>
+          </div>
+      </form>
+<!-- CHOOSE FRAME -->
+        <form>
+          <div class="frame">
+            <p class="heavy">2. Choose a frame style. The number of frames and pictures ordered should match.</p>
+            <div class="frame-total">
+              <div class="copies">Frame selection total: </div>
+              <div class="f-myblock">
+                <div class="minortotal">$36.00</div>
+              </div>
+            <div>
+              <span></span><input class="qty" type="number" name="1" min="0">True Bark ($12.00)<span>
+            </div>
+            <div>
+              <span></span><input class="qty" type="number" name="1" min="0">Platinum Pooch ($20.00)<span>
+            </div>
+            <div>
+              <span></span><input class="qty" type="number" name="1" min="0" >Rustic Old Yellow ($25.00)<span>
+            </div>
+            <hr> 
+          </div>
+        </form>
+
+<!-- YOU PICKED -->
+        <form>
+          <img class="my-thumbnail" src="Noble4.jpg" alt="Early Noble">
+          <div class="picture-name">Chill</div>
+          <div class=cost>Total: $60</div>
+          <p class="heavy">1. Select the number of copies you want.</p>
+          <div class="picture-total">
+            <span><input class=qty type="number" name="1" min="0"></span>
+            <div class="copies">copies @ $20.00 each totals: </div>
+            <div class="p-myblock">
+              <div class="minortotal">$20.00</div>
+            </div>
+          </div>
+        </form>
+<!-- CHOOSE FRAME -->
+        <form>
+          <div class="frame">
+            <p class="heavy">2. Choose a frame style. The number of frames and pictures ordered should match.</p>
+            <div class="frame-total">
+              <div class="copies">Frame selection total: </div>
+              <div class="f-myblock">
+                <div class="minortotal">$40.00</div>
+              </div>
+            </div>
+            <div>
+              <span></span><input class="qty" type="number" name="1" min="0">True Bark ($12.00)<span>
+            </div>
+            <div>
+              <span></span><input class="qty" type="number" name="1" min="0">Platinum Pooch ($20.00)<span>
+            </div>
+            <div>
+              <span></span><input class="qty" type="number" name="1" min="0">Rustic Old Yellow ($25.00)<span>
+            </div>
+            <hr>
+          </div>
+        </form>
+    </div>
+    <div class="buttons">
+      <input class="button" type="button" value="Check Out">
+      <input class="button" type="button" value="Clear">
+    </div>
+  </div>
+  <footer id="foot">Copyright MuttLuck, LLC</footer>
+</body>
+</html>

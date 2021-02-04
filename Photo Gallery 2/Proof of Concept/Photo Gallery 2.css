@@ -1,0 +1,127 @@
+body {
+  max-width: 600px;
+  font-family: "Calibri";
+  font-size: 24px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#container {
+  padding: 20px 0px;
+}
+h1 {
+  text-align: center;
+}
+
+.cost {
+  text-align: center;
+    border: solid lightslategrey;
+  border-width: thin;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.qtr {
+  width: 100%;
+}
+
+.heavy {
+  font-weight: 700;
+}
+
+.description {
+  font-weight: 700;
+  display: block;
+  width: 200px;
+  float: right;
+}
+
+.my-photo {
+  float: none;
+  width: 60%;
+}
+
+
+#foot {
+  text-align: center;
+  padding-top: 15px;
+}
+
+/*checkout ****************/
+
+hr {
+  border: none;
+  border-top: 12px dotted;
+}
+
+.section-checkout {
+  border: solid lightslategrey;
+  border-width: thin;
+  margin-top: 20px;
+  padding: 10px 10px 20px 10px;
+}
+
+.my-thumbnail {
+  display: block;
+  width:20%;
+  float:none;
+  margin:auto;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+
+}
+.picture-name {
+  text-align: center;
+}
+
+.p-myblock {
+  display: inline-block;
+  min-inline-size: 210px;
+}
+
+.picture-total {
+max-width: 600px;
+}
+
+.frame-total {
+max-width: 600px;
+}
+
+.qty {
+  margin-top: 15px;
+  margin-right: 10px;
+  max-width: 60px;
+  min-height: 25px;
+  font-size: 20px;
+}
+
+.copies {
+display: inline-block;
+}
+
+.f-myblock {
+  display: inline-block;
+  min-inline-size:360px;
+}
+
+.minortotal {
+  text-align: right;
+}
+
+.buttons {
+  text-align: center;
+}
+.button{
+ height: 40px;
+ width: 175px;
+ font-size: 20px;
+}
+
