@@ -1,0 +1,30 @@
+<!-- INTRODUCTORY TEXT  -->
+
+Picture a Pet
+
+Yes, he Is adorable. Imagine seeing those eyes and that friendly smile everyday without the responsiblity of taking care of him. Get a care-free Sheepadoodle for your home, office, or home-office now! All pictures are $.
+	
+Scroll to the bottom of the page to choose quantity and type of frame.
+
+<!--PICTURE TEXT  -->
+
+Decked Out
+Groomed and Goofy
+Holiday Special
+Chill
+
+<!-- SHOPPING CART TEXT -->
+
+1. Select the number of copies you want.
+2. Choose a frame style. The number of frames and pictures ordered should match.
+
+<!--PICTURE FRAME TEXT  -->
+You Picked
+
+True Bark
+Platinum Pooch
+Rustic Old Yellow
+
+<!--FOOTER TEXT  -->
+
+Copyright MuttLuck, LLC
