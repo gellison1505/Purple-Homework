@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
   <meta charset="utf-8">
   <title>Color Picker</title>
+
+  <style>
+    body  {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    </style>
 </head>
   
 <body id="body" style="padding: 50px; font-size: 48px;">
@@ -11,6 +16,8 @@
   Color Picker
 
   <form style="font-size: 32px; border-style: solid; padding: 20px;">
+    <input onclick=color(value) name="choice" type="radio" value="white">
+    <label for="purple">White</label><br>
     <input onclick=color(value) name="choice" type="radio" value="purple">
     <label for="purple">Purple</label><br>
     <input onclick=color(value) name="choice" type="radio" value="green">
