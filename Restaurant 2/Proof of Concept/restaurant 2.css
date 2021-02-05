@@ -129,6 +129,7 @@ h1 {
 
 .cart-item-name, .heavy {
   text-align: left;
+  margin-bottom: 10px;
   color: brown;
 }
 
@@ -196,6 +197,6 @@ hr {
 }
 
 #foot {
-    padding: 40px 0;
+    padding: 10px 0;
   }
 

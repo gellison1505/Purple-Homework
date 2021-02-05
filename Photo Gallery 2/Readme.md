@@ -14,9 +14,15 @@ Challenge: Build a mobile-only page similar to the example. The page should meet
 
 Page
 * Maximum of 600px wide
-* Displays two sections: 
+* Displays five sections: 
+  * page header
   * a gallery to view and select pictures 
   * a shopping cart (titled "You Picked") to select picture quantities
+  * Buttons to purchase the items or clear them
+  * footer
+
+Page Header
+* Show the web page title and introductory text (feel free to change either) 
 
 Gallery
 * Show relatively large versions of the `Noble` pictures
@@ -42,6 +48,8 @@ Buttons
   * Activate all `Add to Cart` buttons in the gallery
   * Return to top of page
 
+Footer
+* Should be a minor feature on the page
 
 **Grading Rubric**
 

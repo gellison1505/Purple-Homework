@@ -8,35 +8,44 @@ For easiest viewing of these instructions, view online or use a Markdown preview
 
 This assignment will help you gain experience using Javascript and creating forms using HTML and CSS.
 
-Take a look at the example page [photo-gallery-2.pdf](photo-gallery-2.pdf).
+Take a look at the example page [restaurant-2.png](restaurant-2.png).
 
-Challenge: Build a mobile-only page similar to the example. The page should meet the requirements listed below. Your page doesn't need to look exactly like the example but should contain the same content. Introduction text is provided in [photo-gallery-2.txt](photo-gallery-2.txt). Also provided are PNG images starting with `Noble`.   
+Challenge: Build a mobile-only page similar to the example. The page should meet the requirements listed below. Your page doesn't need to look exactly like the example but should contain the same content. Text for the page is provided in [restaurant-2.txt](restaurant-2-2.txt). Also provided is the PNG image named  [taco.png](taco.png).   
 
 Page
 * Maximum of 600px wide
-* Displays two sections: 
-  * a gallery to view and select pictures 
-  * a shopping cart (titled "You Picked") to select picture quantities and frames
+* Displays six sections: 
+  * page header
+  * name and address
+  * a menu to select food 
+  * a shopping cart (titled "Your Shopping Cart") to select order quantities
+  * buttons to purchase the items in the cart and clear them
+  * footer
 
-Gallery
-* Show relatively large picture
-* Display the picture's name near the image
-* Place a button near the picture that adds the image to the shopping cart 
-  * Deactivate the button when it is clicked
-  * Reactivate buttons when `Check Out` button is clicked
+Page Header
+* Show the web page title and quote
+* Include one or more [taco.png](taco.png) images
 
-Shopping Cart ("You Picked")
-* Prior to picture selection, display the section title and the message, "Cart is Empty"
-* Each time a picture is selected in the gallery, add the item to the cart as follows:
-  * Display a small, recognizable version of the original, and include the image name
-  * Use a number input control to capture how many copies are requested (the default is 1, but the lowest number that can be selected is 0)
-  * When the number of copies has been selected, show the total cost (all pictures cost the same, and you are free to choose the price)
-  * Use a number input control to capture how many of each frame is requested (display 0 as the default and lowest quantity)
-  * Note that you can use your own pricing for the frames (you can also change the names of the styles, but you must have at least three differently priced choices)
-  * If the number of frames ordered is greater than the number of pictures requested, display a message for the user to correct the error
-  * Display the cost of the selected frames
-  * Display the combined cost of picture copies and frames
+Name and Address
+* Display on page (doesn't necessarily have to be at the top)
 
+Menu ("Our Menu")
+
+(Note: you can use your own pricing for the menu items)
+* Display the menu item, description, and price
+* Place an "Add to Cart!" button next to each menu item
+* When the "Add to Cart!" button is clicked:
+  * change the button text to "Added To Cart!"
+  * add the item to the `Shopping Cart`
+
+Shopping Cart ("Your Shopping Cart")
+* Prior to the selection of a menu item, display the section title "Your Shopping Cart" and the text, "Cart is Empty"
+* Each time an item is selected in the menu, add it to the cart as follows:
+  * Display the name of the menu item
+  * For each item, use a number input control to capture the order quantity (the default is 1, but the lowest number that can be selected is 0)
+  * Multiply the item quantity and cost and display the total
+  * Add the costs of all the orders and display the total
+  
 Buttons
 * When the `Check Out` button is clicked, display an `Alert` box containing:
   * Combined price of order
@@ -46,11 +55,14 @@ Buttons
   * Activate all `Add to Cart` buttons in the gallery
   * Return to top of page
 
+Footer
+* Should be a minor feature on the page
+
 
 **Grading Rubric**
 
 * 5 points: Page functions as described
 * 5 points: Programming produces complete and accurate results 
-* 3 points: Fine details: text is aligned in rows and columns
+* 3 points: Fine details: all required content is present and correctly aligned
 * 2 points: Reasonable choice of typography 
  
