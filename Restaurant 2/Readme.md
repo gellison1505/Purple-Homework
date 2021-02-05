@@ -10,7 +10,7 @@ This assignment will help you gain experience using Javascript and creating form
 
 Take a look at the example page [restaurant-2.png](restaurant-2.png).
 
-Challenge: Build a mobile-only page similar to the example. The page should meet the requirements listed below. Your page doesn't need to look exactly like the example but should contain the same content. Text for the page is provided in [restaurant-2.txt](restaurant-2-2.txt). Also provided is the PNG image named  [taco.png](taco.png).   
+Challenge: Build a mobile-only page similar to the example. The page should meet the requirements listed below. Your page doesn't need to look exactly like the example but should contain the same content. Text for the page is provided in [restaurant-2.txt](restaurant-2.txt). Also provided is the PNG image named  [taco.png](taco.png).   
 
 Page
 * Maximum of 600px wide
