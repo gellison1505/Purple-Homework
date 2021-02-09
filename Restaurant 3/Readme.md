@@ -1,18 +1,27 @@
-# Color Picker
+# Restaurant 3
 
-**5 points**
+**15 points**
 
 For easiest viewing of these instructions, view online or use a Markdown previewer.
 
 ### Instructions
 
-This assignment will help you practice using Javascript to respond to mouse clicks
+This assignment will give you experience using an Application Programming Interface (API) to access data from a web site and integrate it into your own page.
 
-Take a look at the example [color-picker.png](color-picker.png). Clicking a radio button of a color changes the background to that color.
+The API you will use is hosted by [OpenWeatherMap.org](https://openweathermap.org/). Basic features can be accessed for free at [https://home.openweathermap.org/users/sign_up](https://home.openweathermap.org/users/sign_up).
 
-Build your own Color Picker, using radio buttons and the `onclick` attribute to call a Javascript function that changes the background color. Your version must feature a minimum of 4 differnt color options.
+In this assignment, you will create a special offer for a chain of restaurants called "Rockit Tacos." Rockit Tacos will sell any two tacos for the price of one if the current temperature is above a certain number. Read the [Open Weather documentation](https://openweathermap.org/current) to learn the parameters required to query the weather database.
 
-**Grading Rubric**
-
-* 5 points: Color Picker functions as described 
- 
+Challenge: create a special offer page with the following features:
+* Includes a title
+* Lists the following locations of Rockit Tacos
+  * New York City, NY
+  * Chicago, IL
+  * Los Angeles, CA
+  * Honolulu, HI
+  * Beijing, China
+  * Bangalore, India
+* For each city show the maximum temperature for the two-for-one offer to take effect
+* For each city show the current temperature
+* When a city's temperature is above the offer limit, show the following message: "All Tacos are 2-for-1!"
+* Update the current temperatures every 60 seconds
