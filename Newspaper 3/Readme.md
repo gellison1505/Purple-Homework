@@ -12,7 +12,7 @@ The API you will use is hosted by a weather web site called [OpenWeather](https:
 
 Challenge: Complete the code for a Chicago Maroon weather application that retrieves OpenWeather data and displays temperatures for selected cities. The HTML and CSS have been provided: [newspaper-3.html](newspaper-3.html) and [newspaper-3.css](newspaper-3.css). Also provided is [Worldcities.csv](Worldcities.csv), a list of cities, latitudes, and longitudes. This list should be used to locate data using OpenWeather site's [One Call API](https://openweathermap.org/api/one-call-api). The application should meet the following requirements:
 * Select 10 cities from [Worldcities.csv](Worldcities.csv) and update the HTML dropdown list of cities. Each record in the csv file lists fields in the following order:
-  * City name
+  * city name
   * latitude
   * longitude
   * Country
