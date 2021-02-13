@@ -1,0 +1,129 @@
+article {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+section {
+  padding: 0 50px;
+  border: 0px;
+  margin: 0px;
+  min-height: 100%;
+}
+
+.fas {
+  color: red;
+}
+
+.offer {
+  border: 3px dotted red;
+  border-radius: 25px;
+}
+
+
+.hq, .temp {
+  display:inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 24px;
+font-weight: bold;
+}
+
+.temp {
+  font-size: 36px;
+}
+.hq {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.header {
+  padding-bottom: 15px;
+  font-size: 65px;
+  padding: 0px;
+  text-align: center;
+}
+
+span > img {
+  height: 15%;
+  width: 15%;
+} 
+
+.subTitle {
+  font-size: 28px;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 15px;
+  margin: 0px;
+  border: 0px;
+}
+
+.menu {
+  /* box-shadow: 5px 5px 5px 5px #888888; */
+  padding: 10px;
+  margin-bottom: 20px;
+  /* background: #ccc; */
+  color: #000;
+}
+
+.heavy {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: brown;
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+h2 {
+  color: red;
+  
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10px;
+}
+
+td, th {
+  text-align: center;
+  padding: 7px;
+}
+
+.item {
+ padding: 10px;
+ text-align: left
+}
+
+.menuName {
+  font-size: 30px;
+  font-weight: bold;
+  color: brown;
+}
+
+.menuDetail, .menuPrice {
+  font-size: 25px;
+}
+
+.menuPrice { 
+  color: green;
+  text-align: right;
+ }
+
+#foot {
+    padding: 10px 0;
+  }
+
